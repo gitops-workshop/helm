@@ -5,7 +5,7 @@ Build and test:
 ```
 helm lint my-app
 helm template my-app
-helm install ./my-app
+helm install ./my-app --name my-app
 ```
 
 ```
@@ -27,6 +27,13 @@ k port-forward pod/my-app 8080:8080
 ```
 
 Open http://localhost:8080
+
+Clean-up:
+
+```
+helm list
+helme delete --purge my-app
+```
 
 Install:
 
