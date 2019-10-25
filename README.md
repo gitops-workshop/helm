@@ -32,7 +32,7 @@ Clean-up:
 
 ```
 helm list
-helme delete --purge my-app
+helm delete --purge my-app
 ```
 
 Install:
@@ -40,4 +40,18 @@ Install:
 ```
 helm package my-app
 helm repo index .
+git add index.yaml *.tgz
+git commit -m "Publish"
+git push
+```
+
+```
+helm repo add gitops-workshop https://gitops-workshop.github.io/helm/
+helm install gitops-workshop/my-app --name my-app
+```
+
+Clean-up:
+
+```
+helm delete --purge my-app
 ```
