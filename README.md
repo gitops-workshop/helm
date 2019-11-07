@@ -50,7 +50,7 @@ helm repo add gitops-workshop https://gitops-workshop.github.io/helm/
 helm install gitops-workshop/my-app --name my-app
 ```
 
-Clean-up:
+### Clean Up
 
 ```
 helm delete --purge my-app
