@@ -1,11 +1,11 @@
 apiVersion: v1
 entries:
   my-app:
-  - created: "2019-10-25T11:09:07.380255-07:00"
-    digest: 49c4ef3cb3cfecd9590e874f07e958285391e34f66fc8375c412323378d1b137
+  - created: "2019-11-13T10:39:34.275995-08:00"
+    digest: 5000c19c4d1aeb62ed3bd85eeb6f6e8062eb249d30989a60611c7b4ed460be6c
     icon: https://avatars2.githubusercontent.com/u/56983333?s=200&v=4
     name: my-app
     urls:
     - my-app-1.0.0.tgz
     version: 1.0.0
-generated: "2019-10-25T11:09:07.379855-07:00"
+generated: "2019-11-13T10:39:34.275522-08:00"
