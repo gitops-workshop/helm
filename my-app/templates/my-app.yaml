@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-    name: my-app
+    name: {{ .Values.nameprefix}}-my-app
 spec:
     containers:
         - name: main
