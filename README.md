@@ -12,8 +12,8 @@ helm init --client-only
 Click the fork button
 
 ```
+export username=... ;# your Github username
 git clone git@github.com:${username}/secrets.git
-
 ```
 
 ### 3. Template Your App
