@@ -3,7 +3,7 @@
 Set-up
 
 ```
-kubernetes-helm
+brew install kubernetes-helm
 helm init --client-only
 ```
 
