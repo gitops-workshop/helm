@@ -1,4 +1,4 @@
-# Helm
+# Hands-On: Helm
 
 ### 1. Set-up
 
