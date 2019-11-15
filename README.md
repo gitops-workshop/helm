@@ -41,7 +41,7 @@ git push
 
 Open Github and enable website https://github.com/${username}/helm/settings
 
-### 5. Fetch You App From The Repo
+### 6. Fetch You App From The Repo
 
 ```
 helm repo add gitops-workshop https://${username}.github.io/helm/
