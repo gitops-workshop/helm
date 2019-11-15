@@ -1,1 +1,2 @@
 greeting: Hello Helm!
+nameprefix: gitops-workshop-
