@@ -1,13 +1,22 @@
 # Hands-On: Helm
 
-### 1. Set-up
+### 1. Install The Helm CLI
 
 ```
 brew install kubernetes-helm
 helm init --client-only
 ```
 
-### 2. Template The App
+### 2. Fork and Clone This Git Repo
+
+Click the fork button
+
+```
+git clone git@github.com:${username}/secrets.git
+
+```
+
+### 3. Template Your App
 
 ```
 cd my-app
@@ -15,14 +24,14 @@ helm template .
 helm template . --set greeting='Hi KubeCon' 
 ```
 
-### 3. Package The App
+### 4. Package Your App
 
 ```
 helm package my-app
 helm repo index .
 ```
 
-### 4. Publish The App
+### 5. Publish You App
 
 ```
 git add index.yaml *.tgz
@@ -30,10 +39,12 @@ git commit -m "Publish"
 git push
 ```
 
-### 5. Get The App From A Repo
+Open Github and enable website https://github.com/${username}/helm/settings
+
+### 5. Fetch You App From The Repo
 
 ```
-helm repo add gitops-workshop https://gitops-workshop.github.io/helm/
+helm repo add gitops-workshop https://${username}.github.io/helm/
 helm fetch gitops-workshop/my-app
 ```
 
